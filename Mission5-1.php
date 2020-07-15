@@ -16,7 +16,7 @@
         <?php
             #データベース接続
             $dsn = 'データベース名';
-            $user = 'ユーザー名';
+            $user = 'ユーザー';
             $password = 'パスワード';
             $pdo = new PDO($dsn, $user, $password, array(PDO::ATTR_ERRMODE => ERRMODE_WARNING));
             
